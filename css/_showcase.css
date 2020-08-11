@@ -173,6 +173,14 @@
   margin-bottom: 20px;
 }
 
+.cards {
+  margin-bottom: 0;
+}
+
+.cards-1 {
+  margin-top: 0;
+}
+
 .cards img:hover,
 .cards-1 img:hover {
   transform: scale(1.1);
