@@ -126,6 +126,19 @@ a:hover {
   transition: all 0.5s ease-out;
 }
 
+.zoom {
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.fas:hover,
+.fas:active,
+.far:hover,
+.fas:active {
+  -webkit-transform: scale(1.3);
+  transform: scale(1.3);
+}
+
 footer {
   padding: 1rem;
 }
