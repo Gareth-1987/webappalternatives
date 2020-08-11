@@ -57,7 +57,7 @@ body {
   left: 50%;
   margin-top: 150px;
   margin-left: -200px;
-  width: 400px;
+  width: 500px;
   height: 500px;
   text-align: center;
   transition: all 0.8s;
@@ -116,16 +116,6 @@ a:hover {
   transition: all 0.5s ease-out;
 }
 
-a .a1 {
-  color: rgba(228, 190, 21, 0.918);
-  text-decoration: none;
-}
-
-a:hover {
-  color: rgba(110, 110, 110, 0.993);
-  transition: all 0.5s ease-out;
-}
-
 .zoom {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
@@ -137,6 +127,11 @@ a:hover {
 .fas:active {
   -webkit-transform: scale(1.3);
   transform: scale(1.3);
+}
+
+.fas fa-laptop-code fa-10x:hover,
+.fas fa-laptop-code fa-10x:active {
+  transition: 0s;
 }
 
 footer {
