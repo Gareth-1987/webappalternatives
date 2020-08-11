@@ -544,7 +544,6 @@ textarea {
   }
 
   .navbar {
-    width: 200px;
     background-color: rgba(54, 54, 54, 0.938);
   }
 
@@ -561,6 +560,5 @@ textarea {
 
   .nav-link {
     font-size: 16px;
-    color: rgba(228, 190, 21, 0.918);
   }
 }
