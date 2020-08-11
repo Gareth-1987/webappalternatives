@@ -269,6 +269,58 @@ textarea {
   margin-bottom: 20px;
 }
 
+.collapse {
+  -webkit-animation: collapse 0.5s ease forwards;
+  animation: collapse 0.5s ease forwards;
+}
+
+.open {
+  -webkit-animation: open 0.5s ease forwards;
+  animation: open 0.5s ease forwards;
+}
+
+@-webkit-keyframes collapse {
+  from {
+    opacity: 1;
+    top: 0;
+  }
+  to {
+    opacity: 0;
+    top: -73px;
+  }
+}
+
+@keyframes collapse {
+  from {
+    opacity: 1;
+    top: 0;
+  }
+  to {
+    opacity: 0;
+    top: -73px;
+  }
+}
+@-webkit-keyframes open {
+  from {
+    opacity: 0;
+    top: -73px;
+  }
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}
+@keyframes open {
+  from {
+    opacity: 0;
+    top: -73px;
+  }
+  to {
+    opacity: 1;
+    top: 0;
+  }
+}
+
 /* Small Screens */
 @media (max-width: 767px) {
   .showcase::after {
@@ -351,7 +403,7 @@ textarea {
 
   .navbar {
     width: 50%;
-    background-color: rgba(54, 54, 54, 0.651);
+    background-color: rgba(54, 54, 54, 0.945);
   }
 
   .hamburger-menu {
@@ -494,7 +546,7 @@ textarea {
 
   .navbar {
     width: 200px;
-    background-color: rgba(54, 54, 54, 0.651);
+    background-color: rgba(54, 54, 54, 0.938);
   }
 
   .hamburger-menu {
