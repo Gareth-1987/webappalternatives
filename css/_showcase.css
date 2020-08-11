@@ -164,7 +164,7 @@
   transition: all 0.5s;
 }
 
-.showcase .content {
+.showcase6 .content {
   filter: blur(5px);
   -webkit-filter: blur(5px);
   transition: 0.8s;
@@ -196,7 +196,7 @@
   transition: all 0.5s;
 }
 
-.showcase .content {
+.showcase7 .content {
   filter: blur(5px);
   -webkit-filter: blur(5px);
 }
@@ -248,7 +248,7 @@
   height: 100%;
   border-radius: 5px;
   border-bottom: 4px solid rgba(228, 190, 21, 0.918);
-  filter: blur(5px);
+  filter: blur(3px);
   transition: 0.5s;
 }
 
