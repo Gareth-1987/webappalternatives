@@ -28,19 +28,26 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   display: block;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
   transition: all 0.8s;
 }
 
+.showcase .content {
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
 .showcase:hover::after {
-  filter: blur(0px);
-  -webkit-filter: blur(0px);
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  transition: 0.8s;
 }
 
 .showcase:hover .content {
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+  transition: 0.8s;
 }
 
 .content {
@@ -51,7 +58,7 @@ body {
   margin-top: 150px;
   margin-left: -200px;
   width: 400px;
-  height: 350px;
+  height: 500px;
   text-align: center;
   transition: all 0.8s;
 }

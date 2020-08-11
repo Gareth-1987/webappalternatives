@@ -7,19 +7,25 @@
   background-repeat: no-repeat;
   background-position: center;
   display: block;
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+  transition: all 0.8s;
+}
+.showcase1 .content {
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
+.showcase1:hover::after {
   filter: blur(5px);
   -webkit-filter: blur(5px);
   transition: all 0.8s;
 }
 
-.showcase1:hover::after {
+.showcase1:hover .content {
   filter: blur(0px);
   -webkit-filter: blur(0px);
-}
-
-.showcase1:hover .content {
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
+  transition: all 0.8s;
 }
 
 .showcase2::after {
@@ -31,19 +37,26 @@
   background-repeat: no-repeat;
   background-position: center;
   display: block;
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+  transition: all 0.8s;
+}
+
+.showcase2 .content {
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
+.showcase2:hover::after {
   filter: blur(5px);
   -webkit-filter: blur(5px);
   transition: all 0.8s;
 }
 
-.showcase2:hover::after {
+.showcase2:hover .content {
   filter: blur(0px);
   -webkit-filter: blur(0px);
-}
-
-.showcase2:hover .content {
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
+  transition: all 0.8s;
 }
 
 .showcase3::after {
@@ -55,19 +68,26 @@
   background-repeat: no-repeat;
   background-position: center;
   display: block;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
   transition: all 0.8s;
 }
 
+.showcase3 .content {
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
 .showcase3:hover::after {
-  filter: blur(0px);
-  -webkit-filter: blur(0px);
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  transition: 0.8s;
 }
 
 .showcase3:hover .content {
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+  transition: 0.8s;
 }
 
 .showcase4::after {
@@ -79,19 +99,24 @@
   background-repeat: no-repeat;
   background-position: center;
   display: block;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
   transition: all 0.8s;
 }
 
-.showcase4:hover::after {
-  filter: blur(0px);
-  -webkit-filter: blur(0px);
-}
-
-.showcase4:hover .content {
+.showcase4 .container1 {
   filter: blur(5px);
   -webkit-filter: blur(5px);
+}
+
+.showcase4:hover::after {
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
+.showcase4:hover .container1 {
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
 }
 
 .showcase5::after {
@@ -103,19 +128,26 @@
   background-repeat: no-repeat;
   background-position: center;
   display: block;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
   transition: all 0.5s;
 }
 
+.showcase5 .content {
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
 .showcase5:hover::after {
-  filter: blur(0px);
-  -webkit-filter: blur(0px);
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  transition: 0.8s;
 }
 
 .showcase5:hover .content {
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+  transition: 0.8s;
 }
 
 .showcase6::after {
@@ -127,19 +159,27 @@
   background-repeat: no-repeat;
   background-position: center;
   display: block;
-  filter: blur(5px);
-  -webkit-filter: blur(5px);
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
   transition: all 0.5s;
 }
 
+.showcase .content {
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  transition: 0.8s;
+}
+
 .showcase6:hover::after {
-  filter: blur(0px);
-  -webkit-filter: blur(0px);
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  transition: 0.8s;
 }
 
 .showcase6:hover .content {
   filter: blur(0px);
   -webkit-filter: blur(0px);
+  transition: 0.8s;
 }
 
 .showcase7::after {
@@ -151,19 +191,26 @@
   background-repeat: no-repeat;
   background-position: center;
   display: block;
+  filter: blur(0px);
+  -webkit-filter: blur(0px);
+  transition: all 0.5s;
+}
+
+.showcase .content {
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+}
+
+.showcase7:hover::after {
   filter: blur(5px);
   -webkit-filter: blur(5px);
   transition: all 0.5s;
 }
 
-.showcase7:hover::after {
+.showcase7:hover .content {
   filter: blur(0px);
   -webkit-filter: blur(0px);
-}
-
-.showcase7:hover .content {
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
+  transition: all 0.5s;
 }
 
 .cards,
@@ -201,6 +248,13 @@
   height: 100%;
   border-radius: 5px;
   border-bottom: 4px solid rgba(228, 190, 21, 0.918);
+  filter: blur(5px);
+  transition: 0.5s;
+}
+
+.card img:hover,
+.card-1 img:hover {
+  filter: blur(0px);
 }
 
 .card h4,
