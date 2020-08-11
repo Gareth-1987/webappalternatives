@@ -18,8 +18,8 @@
 }
 
 .showcase1:hover .content {
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
 }
 
 .showcase2::after {
@@ -42,8 +42,8 @@
 }
 
 .showcase2:hover .content {
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
 }
 
 .showcase3::after {
@@ -66,8 +66,8 @@
 }
 
 .showcase3:hover .content {
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
 }
 
 .showcase4::after {
@@ -90,8 +90,8 @@
 }
 
 .showcase4:hover .content {
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
 }
 
 .showcase5::after {
@@ -114,8 +114,8 @@
 }
 
 .showcase5:hover .content {
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
 }
 
 .showcase6::after {
@@ -166,24 +166,28 @@
   -webkit-filter: blur(3px);
 }
 
-.cards {
+.cards,
+.cards-1 {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   margin-bottom: 20px;
 }
 
-.cards img:hover {
+.cards img:hover,
+.cards-1 img:hover {
   transform: scale(1.1);
   cursor: pointer;
 }
 
-.card {
+.card,
+.card-1 {
   display: grid;
   grid-template-rows: 1fr;
   margin: 50px 50px;
 }
 
-.card img {
+.card img,
+.card-1 img {
   object-fit: cover;
   width: 100%;
   height: 100%;
@@ -191,7 +195,8 @@
   border-bottom: 4px solid rgba(228, 190, 21, 0.918);
 }
 
-.card h4 {
+.card h4,
+.card-1 h4 {
   text-align: center;
   font-size: 1.6rem;
   color: rgba(228, 190, 21, 0.918);
@@ -200,7 +205,7 @@
 
 iframe {
   margin: 0 -200px;
-  opacity: 0.5;
+  opacity: 0.4;
   border: 3px solid rgba(228, 190, 21, 0.918);
 }
 

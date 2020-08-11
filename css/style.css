@@ -1,3 +1,6 @@
+@import "_navbar.css";
+@import "_showcase.css";
+
 html {
   scroll-behavior: smooth;
 }
@@ -25,8 +28,8 @@ body {
   background-repeat: no-repeat;
   background-position: center;
   display: block;
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
   transition: all 0.8s;
 }
 
@@ -36,8 +39,8 @@ body {
 }
 
 .showcase:hover .content {
-  filter: blur(3px);
-  -webkit-filter: blur(3px);
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
 }
 
 .content {
@@ -307,14 +310,6 @@ textarea {
     grid-template-columns: 1fr;
   }
 
-  .cards {
-    grid-template-columns: 1fr;
-  }
-
-  .card {
-    margin-bottom: 0;
-  }
-
   .services div {
     border-bottom: rgba(228, 190, 21, 0.918) solid 2px;
     padding: 1.2rem 1rem;
@@ -351,7 +346,28 @@ textarea {
   }
 
   iframe {
-    max-width: 400px;
+    max-width: 360px;
+  }
+
+  .navbar {
+    width: 50%;
+    background-color: rgba(54, 54, 54, 0.651);
+  }
+
+  .hamburger-menu {
+    top: 15px;
+    right: 10px;
+    width: 35px;
+    height: 30px;
+  }
+
+  .line {
+    width: 80%;
+  }
+
+  .nav-link {
+    font-size: 16px;
+    color: rgba(228, 190, 21, 0.918);
   }
 }
 
@@ -461,7 +477,39 @@ textarea {
     font-size: 10px;
   }
 
-  .cards {
+  .cards,
+  .cards-1 {
     grid-template-columns: 1fr;
+  }
+
+  .card img,
+  .card-1 img {
+    max-width: 100%;
+  }
+
+  iframe {
+    max-width: 500px;
+    max-height: 180px;
+  }
+
+  .navbar {
+    width: 200px;
+    background-color: rgba(54, 54, 54, 0.651);
+  }
+
+  .hamburger-menu {
+    top: 15px;
+    right: 10px;
+    width: 35px;
+    height: 30px;
+  }
+
+  .line {
+    width: 80%;
+  }
+
+  .nav-link {
+    font-size: 16px;
+    color: rgba(228, 190, 21, 0.918);
   }
 }
