@@ -472,6 +472,16 @@ textarea {
     -webkit-filter: blur(0px);
   }
 
+  .showcase4:hover::after {
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+  }
+
+  .showcase4:hover .container1 {
+    filter: blur(0px);
+    -webkit-filter: blur(0px);
+  }
+
   .showcase .content,
   .showcase1 .content,
   .showcase2 .content,
