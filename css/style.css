@@ -496,6 +496,10 @@ textarea {
 
 /* Landscape */
 @media (max-height: 500px) {
+  .showcase {
+    width: 100%;
+  }
+
   .content {
     top: 0;
     margin-top: 65px;
@@ -635,6 +639,12 @@ textarea {
 
   .navbar {
     background-color: rgba(54, 54, 54, 0.938);
+    width: 200px;
+    height: 100%;
+  }
+
+  .nav-item {
+    margin: 26px;
   }
 
   .hamburger-menu {
